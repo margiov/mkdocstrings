@@ -68,13 +68,7 @@ See the documentation about templates for:
 
 Every template has access to a `log` function, allowing to log messages as usual:
 
-```jinja
-{{ log.debug("A DEBUG message.") }}
-{{ log.info("An INFO message.") }}
-{{ log.warning("A WARNING message.") }}
-{{ log.error("An ERROR message.") }}
-{{ log.critical("A CRITICAL message.") }}
-```
+
 
 ### CSS classes
 
